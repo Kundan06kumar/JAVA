@@ -1,0 +1,10 @@
+public class LaptopEMI {
+    public static void main(String[] args) {
+        double price = 60000;
+        int months = 12;
+
+        double emi = price / months;
+
+        System.out.println("Monthly EMI: ₹" + emi);
+    }
+}

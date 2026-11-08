@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class DiceRoll {
+    public static void main(String[] args) {
+        Random random = new Random();
+
+        for (int roll = 1; roll <= 5; roll++) {
+            int result = random.nextInt(6) + 1;
+            System.out.println("Roll " + roll + ": " + result);
+        }
+    }
+}

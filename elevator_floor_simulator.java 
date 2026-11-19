@@ -1,0 +1,15 @@
+public class Elevator {
+    public static void main(String[] args) {
+        int currentFloor = 1;
+        int destination = 7;
+
+        System.out.println("Elevator starting...");
+
+        while (currentFloor < destination) {
+            currentFloor++;
+            System.out.println("Current Floor: " + currentFloor);
+        }
+
+        System.out.println("Destination reached!");
+    }
+}
